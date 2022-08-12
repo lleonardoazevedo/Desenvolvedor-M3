@@ -2,18 +2,207 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Desenvolvedor M3</title>
-  <link rel="stylesheet" href="main.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvedor M3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="reset.scss" />
+    <link rel="stylesheet" href="css/main.css" />
+
 </head>
 
 <body>
+    <header class="logo">
+        <img src="img/logo-m3.png" alt="Logo da M3">
+        <div class="separator">
+
+        </div>
+    </header>
+
+    <div id="produtos">
+    </div>
+
+    <!-- <h2>Carrinho</h2>
+    <div id="carrinho">
+    </div> -->
+    <div>
+        <div>
+            <h2 class="blusas">Blusas</h2>
+        </div>
+
+
+        <div>
+            <ul class="lista txtMenu">
+                <li>
+                    <p class="cores">Cores</p>
+                </li>
+                <li>
+                    <label class="checkbox-wrapper">
+                        <input checked="" type="checkbox" id="check" hidden="">
+                        <label for="check" class="checkmark"></label>
+                    </label>
+                    <p class="menuCores">Amarelo</p>
+                </li>
+
+                <li>
+                    <label class="checkbox-wrapper">
+                        <input checked="" type="checkbox" id="check" hidden="">
+                        <label for="check" class="checkmark"></label>
+                    </label>
+                    <p class="menuCores">Azul</p>
+                </li>
+
+                <li>
+                    <label class="checkbox-wrapper">
+                        <input checked="" type="checkbox" id="check" hidden="">
+                        <label for="check" class="checkmark"></label>
+                    </label>
+                    <p class="menuCores">Branco</p>
+                </li>
+
+                <li>
+                    <label class="checkbox-wrapper">
+                        <input checked="" type="checkbox" id="check" hidden="">
+                        <label for="check" class="checkmark"></label>
+                    </label>
+                    <p class="menuCores">Cinza</p>
+                </li>
+
+                <li>
+                    <label class="checkbox-wrapper">
+                        <input checked="" type="checkbox" id="check" hidden="">
+                        <label for="check" class="checkmark"></label>
+                    </label>
+                    <p class="menuCores">Laranja</p>
+                </li>
+            </ul>
+            <div class="link-cores">
+                <a href="Ver todas as cores ">Ver todas as cores</a>
+            </div>
+
+        </div>
+
+
+
+        <div>
+            <ul class="blocoFotos1 ">
+                <li>
+                    <img src="img/img_2.png " alt="camiseta mescla ">
+                    <p class="txtRoupas ">CAMISETA MESCLA</p>
+                    <p class="preco imagem1 ">R$ 28,00</p>
+                    <P class="preco2 ">até 3x de R$9,33</P>
+                    <button class="btn "> Comprar
+                </button>
+                </li>
+                <li class="imagem2 ">
+                    <img src="img/img_3.png " alt="saia em couro ">
+                    <p class="txtRoupas ">SAIA EM COURO</p>
+                    <p class="preco ">R$ 398,00</p>
+                    <P class="preco2 ">até 10x de R$39,80</P>
+                    <button class="btn "> Comprar
+                </button>
+                </li>
+                <li class="imagem3 ">
+                    <img src="img/img_4.png " alt="cardigan tigre ">
+                    <p class="txtRoupas ">CARDIGAN TIGRE</p>
+                    <p class="preco ">R$ 398,00</p>
+                    <P class="preco2 ">até 10x de R$39,80</P>
+                    <button class="btn "> Comprar
+                </button>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <ul class="blocoFotos2 ">
+                <li class="imagem4 ">
+                    <img src="img/img_5.png " alt="Cardigan off white ">
+                    <p class="txtRoupas ">CARDIGAN OFF WHITE</p>
+                    <p class="preco ">R$ 99,90</p>
+                    <P class="preco2 ">até 3x de R$33,30</P>
+                    <button class="btn "> Comprar
+                </button>
+                </li>
+
+                <li class="imagem5 ">
+                    <img src="img/img_6.png " alt="Body Leopardo ">
+                    <p class="txtRoupas ">BODY LEOPARDO</p>
+                    <p class="preco ">R$ 129,90</p>
+                    <P class="preco2 ">até 3x de R$43,43</P>
+                    <button class="btn "> Comprar
+                </button>
+                </li>
+
+                <li class="imagem6 ">
+                    <img src="img/img_7.png " alt="Casaco Pelos ">
+                    <p class="txtRoupas ">CASACO PELOS</p>
+                    <p class="preco ">R$ 398,00</p>
+                    <P class="preco2 ">até 10x de R$39,80</P>
+                    <button class="btn "> Comprar
+                </button>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <ul class="blocoFotos3 ">
+                <li class="imagem7 ">
+                    <img src="img/img_8.png " alt="Cropped Stripes ">
+                    <p class="txtRoupas ">CROPPED STRIPES</p>
+                    <p class="preco ">R$ 120,00</p>
+                    <P class="preco2 ">até 3x de R$40,00</P>
+                    <button class="btn "> Comprar
+                </button>
+                </li>
+                <li class="imagem8 ">
+                    <img src="img/img_9.png " alt="Camisa Transparente ">
+                    <p class="txtRoupas ">CAMISA TRANSPARENTE</p>
+                    <p class="preco ">R$ 398,00</p>
+                    <P class="preco2 ">até 10x de R$39,80</P>
+                    <button class="btn "> Comprar
+                </button>
+                </li>
+                <li class="imagem9 ">
+                    <img src="img/img_10.png " alt="Pochete Clutch ">
+                    <p class="txtRoupas ">POCHETE CLUTCH</p>
+                    <p class="preco ">R$ 398,00</p>
+                    <P class="preco2 ">até 10x de R$39,80</P>
+                    <button class="btn "> Comprar
+                </button>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <!-- <p> TAMANHO</p>
+            <div class="input-group ">
+                <input required=" " type="text " name="text " autocomplete="off " class="input ">
+                <label class="user-label ">Ordernar Por:</label>
+            </div> -->
+        </div>
+
+        <div>
+            <button class="carregar ">
+                CARREGAR MAIS 
+            </button>
+        </div>
+    </div>
+    <div class="input-group ">
+        <input required=" " type="text " name="text " autocomplete="off " class="input ">
+        <label class="user-label ">Ordernar Por:</label>
+    </div>
+
+
+
+
 
 </body>
-<h1>Desafio m3</h1>
+<footer class="rodape ">
+    <p class="rodapeTxt ">M3: IMPLANTAÇÃO DE E-COMMMERCE VTEX</p>
+</footer>
 
-<script src="bundle.js"></script>
+
+<script src="bundle.js "></script>
 
 </html>

@@ -1,0 +1,383 @@
+/*Estilo da pagina index.html CSS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Open+Sans:ital,wght@0,800;1,300;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    border: 0;
+    font-family: "Open Sans";
+    font-style: normal;
+    /* font-weight: 100; */
+    background-color: #ffffff;
+}
+
+.logo {
+    position: absolute;
+    width: 119px;
+    height: 30px;
+    left: 162px;
+    top: 16px;
+}
+
+.separator {
+    position: absolute;
+    width: 1516px;
+    height: 2px;
+    left: -160px;
+    top: 12px;
+    background: #C7C7C7;
+    margin: 40px 0;
+}
+
+.blusas {
+    position: absolute;
+    display: inline-block;
+    width: 97px;
+    height: 44px;
+    left: 80px;
+    top: 90px;
+    font-size: 32px;
+    line-height: 44px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    color: #333333 !important;
+}
+
+.cores {
+    position: absolute;
+    width: 54px;
+    height: 22px;
+    left: 60px;
+    top: -50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333 !important;
+    text-transform: uppercase;
+    line-height: 22px;
+    margin: 10px;
+}
+
+.txtMenu {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    line-height: 0px;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 14px;
+    list-style: none;
+    width: 1px;
+    /* left: 182px; */
+    top: 230px;
+    position: absolute;
+}
+
+.menuCores {
+    position: absolute;
+    left: 100px;
+    /* top: -10px;
+    bottom: 10px; */
+}
+
+.lista {
+    list-style: none;
+}
+
+
+/* .btnMenu {
+    margin-bottom: 20px;
+    display: absolute;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 49px;
+    gap: 10px;
+    position: absolute;
+    width: 195px;
+    height: 33.55px;
+    left: 649.88px;
+    top: 392.45px;
+    background: #f8f7f7;
+    color: #1a73e8;
+    cursor: pointer;
+} */
+
+.blocoFotos1 {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 64px;
+    width: 976px;
+    height: 426px;
+    left: 362px;
+    top: 210px;
+    bottom: 150px;
+}
+
+.blocoFotos2 {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 64px;
+    width: 976px;
+    height: 426px;
+    left: 362px;
+    bottom: -452px;
+}
+
+.blocoFotos3 {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 64px;
+    width: 976px;
+    height: 426px;
+    left: 362px;
+    top: 1200px;
+}
+
+.txtRoupas {
+    font-size: 14px;
+    justify-content: center;
+    line-height: 40px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* .imagem1 {} */
+
+.preco {
+    font-size: 16px;
+    line-height: 1px;
+    /* margin: 20px; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    /* justify-content: center !important; */
+    left: 600px!important;
+    cursor: pointer;
+}
+
+.preco2 {
+    font-size: 16px;
+    color: #666;
+    line-height: 1px;
+    justify-content: center;
+    margin: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    font-style: normal;
+}
+
+.link-cores {
+    bottom: 200px;
+}
+
+
+/* CHECKBOX DO MENU LATERAL */
+
+.checkmark {
+    display: block;
+    width: 10px;
+    height: 16px;
+    left: 25px;
+    top: 30px;
+    background-color: #ddd;
+    position: relative;
+    transition: background-color 0.4s;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid #000000
+}
+
+#check:checked~.checkmark {
+    background-color: #fdffff;
+    border-color: #000000;
+}
+
+.checkmark::after {
+    position: absolute;
+    width: 5px;
+    height: 10px;
+    border-right: 1px #00C0EE;
+    border-bottom: 1px #00C0EE;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateZ(40deg) scale(10);
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+#check:checked~.checkmark::after {
+    opacity: 1;
+    transform: translate(-50%, -50%) rotateZ(40deg) scale(1);
+}
+
+
+/* BOTAO "ORDERNAR POR" */
+
+.input-group {
+    box-sizing: border-box;
+    position: absolute;
+    width: 142px;
+    height: 42px;
+    left: 1196px;
+    top: 117px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.input {
+    background: none;
+    padding: 10px;
+    font-size: 10px;
+    color: #f5f5f5;
+    transition: border 150ms cubic-bezier#00C0EE;
+    font-weight: 100;
+    line-height: 22px;
+}
+
+.user-label {
+    position: absolute;
+    left: 10px;
+    margin-top: -50px;
+    color: #000000;
+    pointer-events: none;
+    transform: translateY(1rem);
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-style: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+.input:focus,
+input:valid {
+    outline: none;
+    border: 2px #1a73e8;
+}
+
+.input:focus~label,
+input:valid~label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: #212121;
+    padding: 0 .2em;
+    color: #2196f3;
+}
+
+
+/* BOTAO DE COMPRAS */
+
+.btn {
+    position: relative;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 7px 49px;
+    display: inline-block;
+    transition: all .2s;
+    border: none;
+    font-weight: 500;
+    color: rgb(255, 252, 252);
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+
+/* Botão carregar mais */
+
+.carregar {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #00C0EE;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+    width: 175px;
+    cursor: pointer;
+    margin: 5px;
+    align-items: flex-start !important;
+    left: 729px;
+    /* top: 2041px !important; */
+    height: 35px;
+    top: 1680px;
+    position: absolute;
+    cursor: pointer;
+}
+
+
+/* RODAPÉ footer */
+
+.rodape {
+    background-color: #000000 !important;
+    position: absolute;
+    width: 1511px;
+    height: 28px;
+    left: calc(50% - 1500px/2);
+    top: 1800px;
+    /* bottom: 500px; */
+}
+
+.rodapeTxt {
+    position: absolute;
+    background-color: #000000;
+    width: 300px;
+    height: 12px;
+    left: calc(50% - 300px/2 + 21px);
+    bottom: 0px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
